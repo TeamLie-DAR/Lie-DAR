@@ -1,0 +1,276 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 58px 30px 2px 30px;
+  height: auto;
+  background-color: white;
+}
+
+.intro-left {
+  margin: 2px 2px 2px 2px;
+  color: gray;
+  height: auto;
+}
+
+.intro-right img {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+.intro-heading {
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: blue;
+}
+.intro-para {
+  margin-right: auto;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.intro-btn {
+  font-size: 1rem;
+  margin: 17px 2px 2px 2px;
+}
+.center {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  margin: 35px 2px 21px 2px;
+}
+.center-course {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: #1c1cf6;
+  width: 100%;
+  margin: 10px;
+
+}
+.course-content {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+.br-line{
+  width: 73%;
+  height: 1px;
+  background-color: blue;
+
+}
+
+.content1 {
+  height: 350px;
+width: 41vw;
+margin: 6px;
+background-color: #f9f9fa;
+border-radius: 9px;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.content1-stuff {
+  width: 100%;
+  height: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: auto;
+  padding: 25px;
+}
+
+.form-input {
+  width: 95%;
+  font-size: 1.2rem;
+  padding: 2px;
+  border: 2px solid gray;
+  border-radius: 13px;
+  margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-btn {
+  width: 96.3%;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn {
+  font-size: 1.36rem;
+border: 2px solid black;
+border-radius: 6px;
+background: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+padding: 3px;
+border: 2px solid #f2f2f2;
+color:#f2f2f2;
+}
+.btn-submit{
+  font-size: 1.36rem;
+border: 2px solid black;
+border-radius: 6px;
+background: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+padding: 3px;
+border: 2px solid gray;
+color: black;
+margin-left: 3px;
+}
+.btn-blog{
+  font-size: 1.36rem;
+border: 2px solid black;
+border-radius: 6px;
+background: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+padding: 3px;
+border: 2px solid black;
+color: black;
+}
+.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+background-color: #3b3a3a;
+padding: 20px;
+border-top: 1px solid black;
+}
+/* .section-main-content {
+  display: flex;
+  flex-direction: column-reverse;
+} */
+li {
+  list-style: none;
+}
+.none {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+.courses-li {
+  height: 28px;
+  width: 97%;
+border: 2px solid black;
+margin-top: 10px;
+border-radius: 8px;
+cursor: pointer;
+
+}
+.courses-ul {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width:93%;
+height: auto;
+display: flex;
+flex-direction: column;
+margin: auto;
+/* background-color: red; */
+}
+
+/* class-9th css: from here styling of class 9th  started  */
+
+.container-classes {
+  display: flex;
+  height: auto;
+}
+
+.video-content {
+  display: flex;
+  justify-content: center;
+align-items: center;
+  width: 80%;
+  height: auto;
+  background-color: #3b3a3a;
+  flex-direction: column;
+  color: white;
+  
+}
+.video-content-yt {
+  width: 100%;
+  height: 55%;
+  background-color: black;
+}
+.adv {
+  width: 77%;
+height: 45%;
+display: flex;
+align-items: center;
+background-color: #3b3a3a;
+border-radius: 6px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+.content-list {
+  width: 35%;
+  height: auto;
+  background-color: #3f3737;
+  border-left: 2px solid black;
+}
+.chapters {
+  margin: auto;
+  background-color: #3f3737;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  color: #f2f2f2;
+}
+
+/* videos link list */
+.video-link {
+  cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #444141;
+width: 99%;
+height: 39px;
+padding: 1px;
+border: 2px solid black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+margin: 1px auto;
+border-radius: 8px;
+color: #f2f2f2;
+}
+.video-link-parts {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 95%;
+  height: 39px;
+  padding: 1px;
+  background-color: #444141;
+  color: #f2f2f2;
+  margin: 0.4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0.4px auto;
+
+}
+
+.ch{
+  display: flex;
+  height: auto;
+  flex-direction: column;
+
+}
+
+
+
+.ch-part-hidden {
+  display: none;
+}
